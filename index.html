@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+     <!-- Render All Elements Normally -->
+     <link rel="stylesheet" href="css/normalize.css" />
+     <!-- Font Awesome Library -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+     <!-- Bootstrap Library -->
+     <link rel="stylesheet" href="css/all.min.css" />
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <!-- Main Template CSS File -->
+     <link rel="stylesheet" href="css/style.css" />
+     <link rel="stylesheet" href="css/fa.min.css">
+ 
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.gstatic.com" />
+     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&#038;display=swap"
+         rel="stylesheet" />
+     <!-- JS & JQUERY -->
+     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+     <script src="js/script.js"></script>
+</head>
+<body>
+     <!--start header-->
+     <header>
+        <nav>
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <ul>
+                <i id="close" class="fa-solid fa-xmark"></i>
+                <li><a href="#home">home</a></li>
+                <li><a href="profile.html">profile</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="projects.html">projects</a></li>
+                <li><a href="resume.html">resume</a></li>
+            </ul>
+            <i id="bar" class="fa-solid fa-bars"></i>
+
+        </nav>
+    </header>
+    <!--end header-->
+
+
+    <!--start landing-->
+    <div class="landing" id="home">
+        <div class="container">
+          <div class="hi">
+            <h2>hi there !</h2>
+            <span class="vibrating-icon" role="img" aria-labelledby="wave">👋🏻</span>
+          </div>
+            
+            <h1>i'm fares hossam </h1>
+            <h2>Frontend Developer</h2>
+            <p>Crafting beautiful and intuitive digital experiences</p>
+            <a href="projects.html"><button class="one"> <i class="fa-solid fa-bolt-lightning"></i> view projects</button></a>  
+            <a href="#contact"><button class="two"><i class="fa-regular fa-address-book"></i> contact me</button>
+            </a>
+        </div>
+
+    </div>
+    <!--end landing-->
+
+ <!-- Start Contact -->
+ <div class="contact" id="contact">
+    <div class="container">
+    <div class="tittle">
+        <h4>get in touch</h4>
+        <h1>contact me</h1>
+    </div>
+      <div class="content">
+        <form id="myForm" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="844a68dd-3fa3-4cea-abba-b15bff29516b">
+          <input class="main-input" type="text" name="name" placeholder="Your Name">
+          <input class="main-input" type="email" name="mail" placeholder="Your Email">
+          <textarea class="main-input" name="message" placeholder="Your Message"></textarea>
+           <input  type="submit"  value="Send Message">
+        </form>
+        <div class="img">
+            <img src="img/contact-img (1).svg" alt="">
+          </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Contact -->
+
+
+  <!-- start projects -->
+   <div class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="tittle">
+        <h4>my work</h4>
+        <h1>My Projects</h1>
+        <p>My Journey of Growth Through Projects</p>
+    </div>
+      <div class="portfolio-content">
+        <div class="card">
+          <a href="https://fareshossam2.github.io/E-commerce/"><img decoding="async" src="img/E-commerce.png" alt="" /></a>
+            <div class="git">
+              <a href="https://fareshossam2.github.io/E-commerce/"><i class="fa-brands fa-github"></i></a>
+             </div>
+          <div class="info">
+            <h3>E-commerce</h3>
+            <p>Crafted an interactive E-commerce project for sell clothes demonstrating
+               creativity and innovation using HTML , CSS , JavaScript</p>
+              
+          </div>
+          
+        </div>
+        <div class="card">
+          <a href="https://fareshossam2.github.io/Medical-plus/"><img decoding="async" src="img/medical.png" alt="" /></a>
+          <div class="git">
+            <a href="https://fareshossam2.github.io/Medical-plus/"><i class="fa-brands fa-github"></i></a>
+           </div>
+          <div class="info">
+            <h3>MEDICAL SERVICES</h3>
+            <p>Crafted an interactive project for provide medical services demonstrating
+               creativity and innovation using HTML , CSS , JavaScript ,Jquery</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="https://fareshossam2.github.io/FineXo/"><img decoding="async" src="img/cureency.png" alt="" /></a>
+          <div class="git">
+            <a href="https://fareshossam2.github.io/FineXo/"><i class="fa-brands fa-github"></i></a>
+           </div>
+          <div class="info">
+            <h3>CRYPTO CURRENCY</h3>
+            <p>Crafted an interactive Medical project demonstrating creativity and innovation using HTML , CSS , JavaScript ,Jquery</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="btn">
+<a href="projects.html">  
+  <button class="view"><i class="fa-solid fa-bolt-lightning"></i> view all</button>
+</a> 
+   </div>
+  </div>
+  <!-- End projects -->
+  <!--start footer-->
+  <footer>
+    <div class="about">
+        <h1>contact</h1>
+<div class="me">
+      <h4><span>Email :</span> fareshossam@gmail.com</h4>
+      <h4><span>phone :</span> 01029832925</h4>
+  
+</div>
+
+     <div class="social">
+        <a href="https://www.facebook.com/fares.hossam.1217"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/fares-hossam-56036528b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/FaresHossam2"><i class="fa-brands fa-github"></i></a>
+        <a href="https://wa.me/qr/AM5H5Y5OS37CJ1"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </div>
+    <div class="link">
+        <h1 class="line">quick links</h1>
+        <div class="li">
+            <li><a href="#home"><i class="fa-solid fa-caret-right"></i> home</a></li>
+            <li><a href="profile.html"> <i class="fa-solid fa-caret-right"></i> profile</a></li>
+            <li><a href="projects.html"> <i class="fa-solid fa-caret-right"></i> projects</a></li>
+            <li><a download="Fares Hossam.pdf" href=""><i class="fa-solid fa-caret-right"></i> resume</a></li>
+        </div>
+    </div>
+  </footer>
+  <!--end footer-->
+
+
+
+  <script src="https://unpkg.com/smtp.js/dist/smtp.min.js"></script>
+</body>
+</html>
