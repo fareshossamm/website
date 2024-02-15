@@ -35,14 +35,14 @@ $(document).ready(function () {
         $("#skills").hide();
         $("#links").hide();
         $("#personal").show();
-        $(".personal").css("color" , "royalblue");
+        $(".personal").css("color" , "dodgerblue");
 
         $(".personal").click(function() {
            
             $("#education").hide();
             $("#links").hide();
             $("#personal").slideDown(3000);   
-            $(".personal").css("color" , "royalblue");
+            $(".personal").css("color" , "dodgerblue");
             $(".education").css("color" , "aliceblue");
             $(".links").css("color" , "aliceblue");
             $(".skills").css("color" , "aliceblue");
@@ -57,7 +57,7 @@ $(document).ready(function () {
             $("#skills").hide();
             $("#education").slideDown(3000);   
             $(".personal").css("color" , "aliceblue");
-            $(".education").css("color" , "royalblue");
+            $(".education").css("color" , "dodgerblue");
             $(".links").css("color" , "aliceblue");
             $(".skills").css("color" , "aliceblue");
  
@@ -70,7 +70,7 @@ $(document).ready(function () {
             $("#links").slideDown(3000);  
             $(".personal").css("color" , "aliceblue");
             $(".education").css("color" , "aliceblue");
-            $(".links").css("color" , "royalblue"); 
+            $(".links").css("color" , "dodgerblue"); 
             $(".skills").css("color" , "aliceblue");
    
         });
@@ -81,7 +81,7 @@ $(document).ready(function () {
         $("#skills").slideDown(3000)
         $("#links").hide();
         $("#personal").hide();
-        $(".skills").css("color" , "royalblue");
+        $(".skills").css("color" , "dodgerblue");
         $(".personal").css("color" , "aliceblue");
         $(".education").css("color" , "aliceblue");
         $(".links").css("color" , "aliceblue");
