@@ -63,7 +63,6 @@ $(document).ready(function () {
  
         });
         $(".links").click(function() {
-           
             $("#personal").hide();
             $("#education").hide();
             $("#skills").hide();
