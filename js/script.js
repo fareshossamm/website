@@ -24,11 +24,7 @@ $(document).ready(function () {
     });
 
     });
-
-    function clear(){
-        document.getElementById('myForm').reset(); 
-    
-    }
+//#########################################################################
 
     $(document).ready(function () {
         $("#education").hide();
@@ -87,3 +83,6 @@ $(document).ready(function () {
     });
 
     });
+//#########################################################################
+
+

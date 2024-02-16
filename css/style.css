@@ -714,7 +714,12 @@ border-radius: 20px;
   width: 100%;
 }
 .profile .card2 .user .name{
-  padding: 15px 15px 0px 15px;
+  padding: 10px 15px 0px 15px;
+}
+@media(max-width:768px){
+  .profile .card2 .user .name {
+    padding: 0px 10px 0px 15px;
+  }
 }
 .profile .card2 .user .name h1{
   font-size: 30px;
@@ -725,9 +730,19 @@ border-radius: 20px;
 }
 @media(max-width:768px){
   .profile .card2 .user .name h1{
-    font-size: 25px;  
+    font-size: 25px; 
   }
 }
+.profile .card2 .user img{
+  width: 120px;
+  border-radius: 100%;
+  padding: 10px 5px 0 10px;
+    }
+    @media(max-width:768px){
+      .profile .card2 .user img{
+        width: 110px;
+      }
+    }
 .profile .card2 .user .name h4{
   font-size: 18px;
   font-weight: bolder;
@@ -742,24 +757,25 @@ border-radius: 20px;
     font-size: 16px;  
   }
 }
-.profile .card2 .user img{
-width: 120px;
-border-radius: 100%;
 
-padding: 10px 5px 0 10px;
-  }
   .profile .card2 ul h4:not(:last-child) {
     border-bottom: 1px solid #777;
   }
  
   .profile .card2 ul h4{
-    font-size: 22px;
+    font-size: 25px;
     font-weight: bolder;
     text-transform: capitalize;
     margin: 0;
     color: aliceblue;
     padding: 25px;
     cursor: pointer;
+  }
+  @media(max-width:768px){
+    .profile .card2 ul h4{
+      font-size: 22px;
+
+    }
   }
   .profile .card2 ul a{
     text-decoration: none;
