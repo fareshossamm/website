@@ -28,7 +28,7 @@
   }
   @media(max-width:768px){
     body{
-      background: url(../img/download\ \(4\).jpeg );
+      background: url(../img/body2.jpeg );
       background-size: cover;
     }
   }
@@ -388,7 +388,6 @@
 @media(max-width:1200px) {
   .contact .content {
     flex-direction: column;
-
   }
 }
 @media(max-width:768px) {
@@ -399,6 +398,7 @@ margin-top: 30px;
 .contact .tittle h4{
   color: #cecece;
   text-transform: capitalize;
+  margin-top: 50px;
 }
 .contact .tittle h1{
   background: #000046;  
@@ -407,7 +407,6 @@ background: linear-gradient(to right, #5151f0, #6868fd);
 background-clip: text; 
 -webkit-text-fill-color: transparent;
 display: inline-block;
-
 font-weight: bold;
   font-size: 40px;
   font-weight: bolder;
@@ -700,9 +699,8 @@ border-radius: 20px;
 @media(max-width:768px){
   .profile .card2{
     max-width: 100%;
-    margin-left: 10px;
-    margin-bottom: 50px;
-    margin-right: 10px;
+    margin: 10px 10px 20px 10px;
+  
   }
 }
 .profile .card2 .user{
@@ -787,11 +785,12 @@ padding-bottom: 5px;
 .profile .information{
   width: 900px;
   margin-left: 0px;
+  margin-top: 20px;
 }
 @media(max-width:768px){
   .profile .information{
     width: 900px;
-    margin: 20px 10px 0 10px;
+    margin: 10px 10px 0 10px;
   }
 }
 .profile .information .welcome{
@@ -815,6 +814,7 @@ color: #d4d4d4;
     
     .profile .personal h1 {
      padding: 15px;
+     margin-bottom: 10px;
     
     }
 }
@@ -826,7 +826,7 @@ color: #d4d4d4;
 }
 .profile .education .study{
   margin-bottom: 40px;
-  margin-top: 50px;
+  margin-top: 70px;
   color: white;
   font-size: 20px;
   font-weight: bolder;
@@ -844,6 +844,8 @@ color: #d4d4d4;
 @media(max-width:992px){
   .profile .education .study{
     padding: 10px;
+    margin-top: 10px;
+
   }
 }
 .profile .education .computer{
