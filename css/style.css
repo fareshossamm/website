@@ -858,6 +858,12 @@ color: #d4d4d4;
   margin: 50px 20px 70px 20px; 
 
 } 
+@media(max-width:992px){
+  .links .social i{
+    margin-right: 40px;
+  
+  }
+}
 @media(max-width:768px){
   .links .social i{
     font-size: 25px;
@@ -865,9 +871,19 @@ color: #d4d4d4;
   
   }
 }
+@media(max-width:992px){
+  .links{
+   margin-left: 100px;
+  }
+}
 .links img{
   width: 400px;
   border-radius: 50px;
+}
+@media(max-width:992px){
+  .links img{
+   margin-left: 120px;
+  }
 }
 @media(max-width:768px){
   .links img{
