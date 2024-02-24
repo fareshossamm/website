@@ -861,19 +861,26 @@ color: #d4d4d4;
 @media(max-width:992px){
   .links .social i{
     margin-right: 40px;
-  
+    font-size: 40px;
+
+    
   }
 }
 @media(max-width:768px){
   .links .social i{
     font-size: 25px;
-    margin: 100px 10px 20px 20px;
+    margin: 10px 10px 20px 20px;
   
   }
 }
 @media(max-width:992px){
   .links{
    margin-left: 100px;
+  }
+}
+@media(max-width:768px){
+  .links{
+   margin-left: 0;
   }
 }
 .links img{
@@ -889,7 +896,7 @@ color: #d4d4d4;
   .links img{
     max-width: 100%;
     padding: 25px;
-  
+margin-left: 0;  
   }
 }
 .skill{
