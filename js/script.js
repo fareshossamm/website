@@ -32,11 +32,11 @@ $(document).ready(function () {
         $("#links").hide();
         $("#personal").show();
         $(".personal").css("color" , "dodgerblue");
-
         $(".personal").click(function() {
            
             $("#education").hide();
             $("#links").hide();
+            $("#skills").hide();
             $("#personal").slideDown(3000);   
             $(".personal").css("color" , "dodgerblue");
             $(".education").css("color" , "aliceblue");
