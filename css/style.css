@@ -739,6 +739,7 @@ border-radius: 20px;
     @media(max-width:768px){
       .profile .card2 .user img{
         width: 110px;
+        margin: 10px 5px 0 0;
       }
     }
 .profile .card2 .user .name h4{
