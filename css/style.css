@@ -489,7 +489,7 @@ font-weight: bold;
 
   /*start projects*/
   .portfolio{
-    padding: 100px 0px;
+    padding: 50px 0px;
   }
   .portfolio .tittle h4{
     color: #d8d8d8;
@@ -598,6 +598,7 @@ text-transform: uppercase;
   background: linear-gradient(90deg, #001a43,#022e74,#213671,#084da6);
   color: white;
 }
+
 .portfolio .view i{
   padding-right: 5px;
 }
