@@ -377,17 +377,7 @@
   /*end landing*/
 
   /*start contact*/
-  .error-message {
-    color: red;
-    font-size: 16px;
-    margin-left: 15px;
-}
-.error-box {
-  border: 1px solid red;
-  padding: 5px;
-  margin-top: 5px;
-  display: none;
-}
+  
 .contact .content {
   display: flex;
   justify-content: space-between;
@@ -441,7 +431,7 @@ font-weight: bold;
   padding: 20px;
   display: block;
   border: none;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
   width: 100%;
   background-color: #212121;
   color: white;
