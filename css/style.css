@@ -146,7 +146,7 @@
     text-decoration: none;
     list-style: none;
     padding-top: 10px;
-    transition: 0.8s;
+    transition: 0.2s;
   }
   
   @media(max-width:1200px) {
