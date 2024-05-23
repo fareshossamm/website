@@ -564,7 +564,7 @@ background: linear-gradient(to right, #1CB5E0, #3939de);
 background-clip: text; 
 -webkit-text-fill-color: transparent;
 display: inline-block;
-
+font-size: 28px;
 font-weight: bold;
 margin-bottom: 10px;
 text-transform: uppercase;
