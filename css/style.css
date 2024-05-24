@@ -74,7 +74,7 @@
   
   .logo img{
    margin-left: 50px;
-  width: 100px;
+   width: 100px;
   }
   
   
@@ -82,7 +82,7 @@
   @media(max-width:1200px) {
     .logo img{
       margin-left: 50px;
-  width: 80px;
+      width: 80px;
   
     }
   }
@@ -103,8 +103,7 @@
     background: #141E30;  
     background: -webkit-linear-gradient(to left, #041e3b, #04080f);  
     background: linear-gradient(to left, #040f1c, #0d1a32);  
- 
-    padding: 15px;
+    padding: 12px;
   }
   @media(max-width:768px){
     header nav{
@@ -160,7 +159,7 @@
     text-decoration: none;
     text-transform: uppercase;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bolder;
     transition: 0.5s;
   }
@@ -178,7 +177,7 @@
   
   nav ul li:hover {
   
-    transform: translateY(-5px);
+    transform: scale(1.1);
   }
   
   #bar {
