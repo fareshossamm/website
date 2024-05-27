@@ -42,7 +42,6 @@
             $(".education").css("color", "aliceblue");
             $(".links").css("color", "aliceblue");
             $(".skills").css("color", "aliceblue");
-            $("html, body").animate({ scrollTop: $("#education").offset().top }, "slow");
 
 
 
@@ -57,7 +56,6 @@
             $(".education").css("color", "dodgerblue");
             $(".links").css("color", "aliceblue");
             $(".skills").css("color", "aliceblue");
-            $("html, body").animate({ scrollBottom: $("#education").offset().top }, "slow");
 
 
         });
@@ -70,7 +68,6 @@
             $(".education").css("color", "aliceblue");
             $(".links").css("color", "dodgerblue");
             $(".skills").css("color", "aliceblue");
-            $("html, body").animate({ scrollTop: $("#education").offset().top }, "slow");
 
         });
 
@@ -84,10 +81,8 @@
             $(".personal").css("color", "aliceblue");
             $(".education").css("color", "aliceblue");
             $(".links").css("color", "aliceblue");
-            $("html, body").animate({ scrollTop: $("#education").offset().top }, "slow");
 
         });
 
     });
     //#########################################################################
-

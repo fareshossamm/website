@@ -483,7 +483,14 @@ font-weight: bold;
     margin-left: 0;
   }
 }
-
+.error {
+  border: 2px solid red;
+}
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 0.2em;
+}
   /*end contact*/
 
   /*start projects*/
@@ -679,8 +686,13 @@ font-size: 40px;
 
 /*start profile*/
 .profile{
-  padding: 50px 0 200px 0;
+  padding: 0px 0 100px 0;
   color: white;
+}
+@media(max-width:768px){
+  .profile{
+    padding: 20px 0 10px 0;
+  }
 }
 .profile {
   display: flex;
