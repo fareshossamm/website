@@ -1,27 +1,20 @@
-    $(document).ready(function () {
+document.addEventListener('DOMContentLoaded', function () {
+    // Navigation bar functionality
+    document.getElementById('bar').addEventListener('click', function () {
+        document.querySelector('nav ul').style.right = '-100px';
+    });
 
-        $("#bar").click(function () {
+    document.getElementById('close').addEventListener('click', function () {
+        let navUl = document.querySelector('nav ul');
+        navUl.style.right = '-3000px';
+        navUl.style.transition = 'right 0.7s ease-in-out';
+    });
 
-            $("nav ul").css("right", " -100px");
-
+    document.querySelectorAll('li, #sign').forEach(function (element) {
+        element.addEventListener('click', function () {
+            document.querySelector('nav ul').style.right = '-3000px';
         });
-        $("#close").click(function () {
-
-            $("nav ul").css({
-                "right": "-3000px",
-                "transition": "right 0.7s ease-in-out"
-            });
-        });
-        $("li").click(function () {
-
-            $("nav ul").css("right", " -3000px");
-
-        });
-        $("#sign").click(function () {
-
-            $("nav ul").css("right", " -3000px");
-
-        });
+    });
 
     });
     //#########################################################################
