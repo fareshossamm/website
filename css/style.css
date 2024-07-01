@@ -21,14 +21,13 @@
   
   body {
     font-family: "Open Sans", sans-serif;
-    background: #141E30;  
-    background: -webkit-linear-gradient(90deg, #041e3b, #04080f);  
-    background: linear-gradient(180deg, #040f1c, #0d1a32);  
+      background:#0a0a0a;
+
   
   }
   @media(max-width:768px){
     body{
-      background: url(../img/download\ \(4\).jpeg );
+      background:#0a0a0a;
       background-size: cover;
     }
   }
@@ -100,9 +99,8 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    background: #141E30;  
-    background: -webkit-linear-gradient(to left, #041e3b, #04080f);  
-    background: linear-gradient(to left, #040f1c, #0d1a32);  
+    background:#0a0a0a;
+
     padding: 12px;
   }
   @media(max-width:768px){
@@ -130,9 +128,7 @@
       right: -3000px;
       height: 100vh;
       width: 220px;
-      background: #141E30;  
-      background: -webkit-linear-gradient(to left, #041e3b, #04080f);  
-      background: linear-gradient(to left, #040f1c, #0d1a32); 
+      background:#0a0a0a;
       background-size: cover;
       padding: 80px 0 0 10px;
       transition: 0.1s;
@@ -942,9 +938,8 @@ footer{
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: start;
-  background: #141E30;  
-  background: -webkit-linear-gradient(to left, #041e3b, #04080f);  
-  background: linear-gradient(to left, #040f1c, #0d1a32);  
+  background:#0a0a0a;
+
   padding: 50px 35px;
 }
 @media(max-width:767px){
