@@ -24,14 +24,14 @@ document.addEventListener('DOMContentLoaded', function () {
         $("#skills").hide();
         $("#links").hide();
         $("#personal").show();
-        $(".personal").css("color", "dodgerblue");
+        $(".personal").css("color", "#03e2ee");
         $(".personal").click(function () {
 
             $("#education").hide();
             $("#links").hide();
             $("#skills").hide();
             $("#personal").slideDown(3000);
-            $(".personal").css("color", "dodgerblue");
+            $(".personal").css("color", "#03e2ee");
             $(".education").css("color", "aliceblue");
             $(".links").css("color", "aliceblue");
             $(".skills").css("color", "aliceblue");
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#skills").hide();
             $("#education").slideDown(3000);
             $(".personal").css("color", "aliceblue");
-            $(".education").css("color", "dodgerblue");
+            $(".education").css("color", "#03e2ee");
             $(".links").css("color", "aliceblue");
             $(".skills").css("color", "aliceblue");
 
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#links").slideDown(3000);
             $(".personal").css("color", "aliceblue");
             $(".education").css("color", "aliceblue");
-            $(".links").css("color", "dodgerblue");
+            $(".links").css("color", "#03e2ee");
             $(".skills").css("color", "aliceblue");
 
         });
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function () {
             $("#skills").slideDown(3000)
             $("#links").hide();
             $("#personal").hide();
-            $(".skills").css("color", "dodgerblue");
+            $(".skills").css("color", "#03e2ee");
             $(".personal").css("color", "aliceblue");
             $(".education").css("color", "aliceblue");
             $(".links").css("color", "aliceblue");
