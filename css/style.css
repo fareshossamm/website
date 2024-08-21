@@ -501,6 +501,41 @@ font-weight: bold;
   /*end contact*/
 
   /*start projects*/
+
+  /* Filtration Buttons */
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+@media(max-width:768px){
+  .filter-buttons{
+    margin-top: 25px;
+  }
+}
+.filter-btn {
+  padding: 10px 20px;
+  border: 2px solid #00ADB5; /* Button border color */
+  background-color: #00ADB5; /* Button background color */
+  color: #fff; /* Text color */
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.filter-btn:hover {
+  background-color: #fff; /* Change background on hover */
+  color: #00ADB5; /* Change text color on hover */
+}
+
+.filter-btn.active {
+  background-color: #00ADB5; /* Active button background color */
+  color: #fff; /* Active button text color */
+}
+
   .portfolio{
     padding: 50px 0px;
   }
@@ -510,8 +545,8 @@ font-weight: bold;
   }
   .portfolio .tittle h1{
   /* background: #000046;   */
-/* background: -webkit-linear-gradient(to right, #1CB5E0, #4949df);
-background: linear-gradient(to right, #5151f0, #6868fd);  */
+/* background: -webkit-linear-gradient(to right, #1CB5E0, #00ADB5);
+background: linear-gradient(to right, #00ADB5, #00ADB5);  */
 background-color: #03e2ee;
 background-clip: text; 
 -webkit-text-fill-color: transparent;
@@ -572,16 +607,15 @@ border: 2px solid #5b5b5b;
   .portfolio .portfolio-content .card .info h3{
 margin: 0;
 color: #03e2ee;
-/* background: #000046;  
-background: -webkit-linear-gradient(to right, #1CB5E0, #4949df);
-background: linear-gradient(to right, #1CB5E0, #3939de);  */
-/* background-clip: text; 
--webkit-text-fill-color: transparent;
-display: inline-block; */
 font-size: 28px;
 font-weight: bold;
 margin-bottom: 10px;
 text-transform: uppercase;
+  }
+  .portfolio .portfolio-content .card .info h3:hover{
+    text-decoration: none;
+    text-underline-offset: none;
+    text-underline-position: 0;
   }
   .portfolio .portfolio-content .card .info p{
     color: rgb(220, 220, 220);
@@ -648,6 +682,10 @@ color: #FFFFFF;
 }
 .portfolio .home i{
 font-size: 40px;
+}
+.portfolio img {
+  width: 100%;
+  max-height: 175px;
 }
   /*end projects*/
 
